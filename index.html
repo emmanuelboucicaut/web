@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>Mon Cv</title>
+   </head>
+   <body>
+        <img src="89885_3.jpg" alt="cockapoo" style="width:200px"/>
+        <h1> Emmanuel Boucicaut </h1>	
+		<p> 
+			11565 Pierrefonds, Montreal <br>
+            555-555-5555 <br>
+         <a href="mailto:boucicaut.emmanuel@courrier.uqam.ca"> boucicaut.emmanuel@courrier.uqam.ca </a> <br>			
+		</p>
+		<h2>Objectifs de carriere</h2>
+		<ul>
+		  <li>Trouver un emploi</li>
+		</ul>
+		
+		<h2> Experience </h2>
+		<table border=1>
+		    <thead>
+				<tr>
+					<th>Travail</th>
+					<th>Poste</th>
+					<th>Annee</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				  <td>A</td>
+				  <td>B</td>
+				  <td>C</td>
+				</tr>
+				<tr>
+				  <td>D</td>
+				  <td>E</td>
+				  <td>F</td>
+				</tr>
+				<tr>
+				  <td>G</td>
+				  <td>H</td>
+				  <td>I</td>
+				</tr>
+			</tbody>
+		</table>
+		<h1>Formulaire d'admission</h1>
+		<p> Ce formulaire fait l'admossion à une association <br> professionnelle d'informaticiens et informaticiennes
+            <form id="admission" method="post" action="valider.php"> 
+			 <label for="nom"> Nom: </label> 
+			 <input type="text" name="nom" maxlength="40"/> <br>
+			 Prenom:  <input type="text" id="prenom" /> <br>
+			 Age:  <input type="text" id="age" /><br>
+			 Anne diplome: <input type="text" id="annee" placeholder="YYYY" required/><br>
+			 Etablissement <select id="uni" size="1" required>
+                                <option value="Uqam">Uqam</option>
+                                <option value="Concordia"> Concordia </option>								
+			               </select> <br>
+		     Nom du programme: <input type="text" id="programme" />	<br> <br>
+             <input type="submit" id="soumettre" value="Soumettre">			 
+			</form>
+		</p>
+   </body>
+</html>
